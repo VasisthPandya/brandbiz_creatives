@@ -225,6 +225,16 @@ const Navbar = () => {
               <li className="nav-item">
                 <Link
                   className="nav-link cursor-pointer fw-bold"
+                  to="our_network"
+                  smooth={true}
+                  duration={500}
+                >
+                  Our Network
+                </Link>
+              </li>
+              <li className="nav-item">
+                <Link
+                  className="nav-link cursor-pointer fw-bold"
                   to="contact"
                   smooth={true}
                   duration={500}
