@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-scroll"; // Import Link from react-scroll
 
 const Navbar = () => {
   return (
@@ -73,7 +74,7 @@ const Navbar = () => {
                   </li>
                   <li>
                     <a className="dropdown-item" href="#">
-                      Search Engine Optimization(SEO)
+                      Search Engine Optimization
                     </a>
                   </li>
                   <li>
@@ -134,9 +135,17 @@ const Navbar = () => {
                 </ul>
               </li>
               <li className="nav-item">
-                <a className="nav-link fw-bold" href="#">
+                {/* <a className="nav-link fw-bold" href="#">
                   Contact Us
-                </a>
+                </a> */}
+                <Link
+                  className="nav-link"
+                  to="contact_us"
+                  smooth={true}
+                  duration={500}
+                >
+                  Contact Us
+                </Link>
               </li>
             </ul>
           </ul>

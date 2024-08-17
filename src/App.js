@@ -1,11 +1,8 @@
-// src/App.js
-
 import React from "react";
 import "./App.css";
 import "./components/navbar";
 import Home from "./components/home";
 import BrandingCreatives from "./components/branding_creatives";
-import OurService from "./components/our_service";
 import SocialMediaMarketing from "./components/social_media_markerting";
 import GraphicDesign from "./components/graphic_design";
 import AiBasedSolution from "./components/ai_based_solution";
@@ -25,15 +22,15 @@ import CustomizedBudget from "./components/customized_budget";
 import OurNetwork from "./components/our_network";
 import ContactUs from "./components/contact_us";
 import Navbar from "./components/navbar";
+
 function App() {
   return (
     <div className="App">
       <header className="bg-body-tertiary text-white">
         <div className="container-fluid">
           <Navbar />
-          <Home />
+          <Home id="home"/>
           <BrandingCreatives />
-          {/* <OurService /> */}
           <SocialMediaMarketing />
           <GraphicDesign />
           <AiBasedSolution />
@@ -51,7 +48,7 @@ function App() {
           <BusinessConsulting />
           <CustomizedBudget />
           <OurNetwork />
-          <ContactUs />
+          <ContactUs  id="contact_us"/>
         </div>
       </header>
       <footer className="bg-body-tertiary text-white text-center">
