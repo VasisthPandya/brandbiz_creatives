@@ -17,7 +17,7 @@ const Navbar = () => {
         </button>
         <div className="collapse navbar-collapse" id="navbarNavDropdown">
           <ul className="navbar-nav align-items-center justify-content-between w-100">
-            <li className="nav-item">
+            <li className="nav-item d-none d-lg-flex">
               <a
                 className="navbar-brand d-flex align-items-center gap-3"
                 href="#"
@@ -34,7 +34,12 @@ const Navbar = () => {
                 </p>
               </a>
             </li>
-            <ul className="d-flex gap-3 list-unstyled">
+            <ul className="d-lg-flex gap-3 list-unstyled">
+              <li className="nav-item">
+                <a className="nav-link fw-bold" href="#">
+                  Home
+                </a>
+              </li>
               <li className="nav-item">
                 <a className="nav-link fw-bold" href="#">
                   About Us
