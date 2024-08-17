@@ -19,9 +19,12 @@ const Navbar = () => {
         <div className="collapse navbar-collapse" id="navbarNavDropdown">
           <ul className="navbar-nav align-items-center justify-content-between w-100">
             <li className="nav-item d-none d-lg-flex">
-              <a
+              <Link
                 className="navbar-brand d-flex align-items-center gap-3"
-                href="#"
+                to="home"
+                d
+                smooth={true}
+                duration={500}
               >
                 <img
                   src="assets/images/BrandBiz_logo.png"
@@ -33,18 +36,28 @@ const Navbar = () => {
                 <p className="m-0 fs-3 fw-bold" style={{ color: "#050A30" }}>
                   BrandBiz Creatives
                 </p>
-              </a>
+              </Link>
             </li>
             <ul className="d-lg-flex gap-3 list-unstyled">
               <li className="nav-item">
-                <a className="nav-link fw-bold" href="#">
+                <Link
+                  className="nav-link fw-bold cursor-pointer"
+                  to="home"
+                  smooth={true}
+                  duration={500}
+                >
                   Home
-                </a>
+                </Link>
               </li>
               <li className="nav-item">
-                <a className="nav-link fw-bold" href="#">
+                <Link
+                  className="nav-link fw-bold cursor-pointer"
+                  to="about"
+                  smooth={true}
+                  duration={500}
+                >
                   About Us
-                </a>
+                </Link>
               </li>
               <li className="nav-item dropdown">
                 <a
@@ -58,89 +71,161 @@ const Navbar = () => {
                 </a>
                 <ul className="dropdown-menu">
                   <li>
-                    <a className="dropdown-item" href="#">
+                    <Link
+                      className="nav-link cursor-pointer"
+                      to="social_media_marketing"
+                      smooth={true}
+                      duration={500}
+                    >
                       Social Media Marketing
-                    </a>
+                    </Link>
                   </li>
                   <li>
-                    <a className="dropdown-item" href="#">
+                    <Link
+                      className="nav-link cursor-pointer" 
+                      to="graphic_design"
+                      smooth={true}
+                      duration={500}
+                    >
                       Graphic Design
-                    </a>
+                    </Link>
                   </li>
                   <li>
-                    <a className="dropdown-item" href="#">
+                    <Link
+                      className="nav-link cursor-pointer"
+                      to=" ai_based_solution"
+                      smooth={true}
+                      duration={500}
+                    >
                       Ai Based Solution
-                    </a>
+                    </Link>
                   </li>
                   <li>
-                    <a className="dropdown-item" href="#">
+                    <Link
+                      className="nav-link cursor-pointer"
+                      to="search_engine_optimization"
+                      smooth={true}
+                      duration={500}
+                    >
                       Search Engine Optimization
-                    </a>
+                    </Link>
                   </li>
                   <li>
-                    <a className="dropdown-item" href="#">
+                    <Link
+                      className="nav-link cursor-pointer"
+                      to="web_design"
+                      smooth={true}
+                      duration={500}
+                    >
                       Web Design
-                    </a>
+                    </Link>
                   </li>
                   <li>
-                    <a className="dropdown-item" href="#">
+                    <Link
+                      className="nav-link cursor-pointer"
+                      to="podcast_radio"
+                      smooth={true}
+                      duration={500}
+                    >
                       Podcast & Radio Ad
-                    </a>
+                    </Link>
                   </li>
                   <li>
-                    <a className="dropdown-item" href="#">
+                    <Link
+                      className="nav-link cursor-pointer"
+                      to="video_film_making"
+                      smooth={true}
+                      duration={500}
+                    >
                       Video & Film Making/Editing
-                    </a>
+                    </Link>
                   </li>
                   <li>
-                    <a className="dropdown-item" href="#">
+                    <Link
+                      className="nav-link cursor-pointer"
+                      to="lead_generation"
+                      smooth={true}
+                      duration={500}
+                    >
                       Lead Generation
-                    </a>
+                    </Link>
                   </li>
                   <li>
-                    <a className="dropdown-item" href="#">
+                    <Link
+                      className="nav-link cursor-pointer"
+                      to="copy_writing"
+                      smooth={true}
+                      duration={500}
+                    >
                       CopyWriting
-                    </a>
+                    </Link>
                   </li>
                   <li>
-                    <a className="dropdown-item" href="#">
+                    <Link
+                      className="nav-link cursor-pointer"
+                      to="influencer_marketing"
+                      smooth={true}
+                      duration={500}
+                    >
                       Influencer Marketing
-                    </a>
+                    </Link>
                   </li>
                   <li>
-                    <a className="dropdown-item" href="#">
+                    <Link
+                      className="nav-link cursor-pointer"
+                      to="public_relations"
+                      smooth={true}
+                      duration={500}
+                    >
                       Public Relations (PR)
-                    </a>
+                    </Link>
                   </li>
                   <li>
-                    <a className="dropdown-item" href="#">
+                    <Link
+                      className="nav-link cursor-pointer"
+                      to="news_broadcast"
+                      smooth={true}
+                      duration={500}
+                    >
                       News Broadcast
-                    </a>
+                    </Link>
                   </li>
                   <li>
-                    <a className="dropdown-item" href="#">
+                    <Link
+                      className="nav-link cursor-pointer"
+                      to="legal_solutions"
+                      smooth={true}
+                      duration={500}
+                    >
                       Legal Solutions
-                    </a>
+                    </Link>
                   </li>
                   <li>
-                    <a className="dropdown-item" href="#">
+                    <Link
+                      className="nav-link cursor-pointer"
+                      to="financial_solutions"
+                      smooth={true}
+                      duration={500}
+                    >
                       Financial Solutions
-                    </a>
+                    </Link>
                   </li>
                   <li>
-                    <a className="dropdown-item" href="#">
+                    <Link
+                      className="nav-link cursor-pointer"
+                      to="business_consulting"
+                      smooth={true}
+                      duration={500}
+                    >
                       Business Consulting
-                    </a>
+                    </Link>
                   </li>
                 </ul>
               </li>
               <li className="nav-item">
-                {/* <a className="nav-link fw-bold" href="#">
-                  Contact Us
-                </a> */}
                 <Link
-                  className="nav-link"
-                  to="contact_us"
+                  className="nav-link cursor-pointer fw-bold"
+                  to="contact"
                   smooth={true}
                   duration={500}
                 >

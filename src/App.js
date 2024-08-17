@@ -22,6 +22,7 @@ import CustomizedBudget from "./components/customized_budget";
 import OurNetwork from "./components/our_network";
 import ContactUs from "./components/contact_us";
 import Navbar from "./components/navbar";
+import ScrollToTopButton from './components/ScrollToTopButton';
 
 function App() {
   return (
@@ -54,6 +55,7 @@ function App() {
       <footer className="bg-body-tertiary text-white text-center">
         <p className="text-primary">&copy; 2024 BrandBiz Creatives</p>
       </footer>
+      <ScrollToTopButton />
     </div>
   );
 }
