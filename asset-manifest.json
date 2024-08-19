@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/brandbiz_creatives/static/css/main.61952e3c.css",
+    "main.js": "/brandbiz_creatives/static/js/main.577a7c50.js",
+    "static/js/453.efecd512.chunk.js": "/brandbiz_creatives/static/js/453.efecd512.chunk.js",
+    "index.html": "/brandbiz_creatives/index.html",
+    "main.61952e3c.css.map": "/brandbiz_creatives/static/css/main.61952e3c.css.map",
+    "main.577a7c50.js.map": "/brandbiz_creatives/static/js/main.577a7c50.js.map",
+    "453.efecd512.chunk.js.map": "/brandbiz_creatives/static/js/453.efecd512.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.61952e3c.css",
+    "static/js/main.577a7c50.js"
+  ]
+}
